@@ -1,0 +1,26 @@
+# Entorno virtual
+venv/
+.env
+
+# Archivos del sistema
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos temporales
+*.log
+*.sqlite
+*.db
+
+# VS Code
+.vscode/
+
+# Archivos de FAISS (si llegas a guardarlos)
+vectorstore_web/
+
+# Mac / Linux
+.DS_Store
+
+# Windows
+Thumbs.db
